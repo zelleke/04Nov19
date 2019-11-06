@@ -1,0 +1,51 @@
+function bilhatif(lastname){
+        var lastname= "zelleke";
+        var bb = "belay";
+        var  aa = "zelleke";
+        
+    if (lastname == aa) 
+        {
+            console.log("hello " + lastname + " how are you");
+            
+        }
+          else if(lastname == bb) 
+            console.log("hello " + bb + " how are you");
+          else  console.log("hello yau name is wrong");
+        
+    }
+function bilhatfor()
+    {
+  
+   let myname = ["bilhat","zelleke","belay"];
+    var i;
+    
+   for(i = 0; i <2; i++){
+        
+     if(myname[i] == "bilhat"){
+     
+         console.log(i + ", this is my first name ")
+     
+     }else if(myname[i] == "zelleke"){
+         console.log( i + ", this is my last name.")
+  
+     } else console.log(i)
+   
+     }
+  }
+  
+
+  function bilhatsw(zelleke) {
+    var belay = "midelname";
+  switch(belay) {
+         case "firstname":
+      console.log("hello mr bilhat");
+        break;
+      case "lastname":
+      console.log("hello mr zelleke");
+          break;
+  default:
+      console.log("you are not on the list");
+  }
+  }
+  
+  
